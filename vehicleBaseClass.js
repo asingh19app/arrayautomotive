@@ -20,7 +20,16 @@ class Vehicle {
 
 }
 
-const car = new Vehicle
-car.miles(5000)
-car.drive(300)
+class Car extends Vehicle {
 
+}
+
+
+
+const car = new Vehicle ()
+const testCar = new Car()
+console.log(car, testCar)
+// car.miles(5000)
+// car.drive(300)
+
+testCar.drive(50)
